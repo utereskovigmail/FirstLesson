@@ -8,6 +8,17 @@ public class Main{
         Person p = new Person("John", 25);
         p.Me();
         p.SayHello();
+        System.out.println("\n\n");
+
+        Builder b = new Builder("John", 25, 10000, 5);
+        b.Me();
+        b.SayHello();
+
+        System.out.println("\n\n");
+
+        Pilot pilot = new Pilot("Dima", 30, 25000);
+        pilot.Me();
+        pilot.SayHello();
 
     }
 }
